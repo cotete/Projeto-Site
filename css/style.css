@@ -28,7 +28,6 @@ body{
 }
 .header nav a{
     color: #A9DAE8;
-    gap: 100px;
     text-decoration: none;
 }
 .header nav{
@@ -37,7 +36,8 @@ body{
     align-items: center;
     margin-top: 30px;
     margin: 30px;
-    gap: 520px;
+    margin-left: 70px;
+    gap: 500px;
 }
 .header{
     color: #A9DAE8;
@@ -112,4 +112,25 @@ body{
     display: flex;
     flex-direction: row;
     gap: 50px;
+}
+.section-footer{
+    display: flex;
+    flex-direction: column;
+    color: #A9DAE8;
+    background-color: #763320;
+}
+.section-footer nav a{
+    color: #A9DAE8;
+    text-decoration: none;
+    margin: 80px;
+}
+.section-footer nav{
+}
+.section-footer h1{
+    margin-top: 10vh;
+    margin-bottom: 35vh;
+}
+.section-footer hr{
+    margin-top: 5vh;
+    width: 80vw;
 }
